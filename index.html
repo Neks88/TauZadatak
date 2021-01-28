@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./utils/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/range.css">
+    
+    <script src="https://kit.fontawesome.com/9d93817d0f.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap 4 cdns -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9d93817d0f.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+    
+<!-- Above the nav -->
+    <div class="container">
+        <div class='above-the-nav'>
+            <div class="logo"><img src="./images/logo.svg" alt=""></div>
+            <div class="autentifikacija">
+
+          
+                  <a class="register-link" href="#">Registruj se</a>
+                  <div class="ver-crtica"></div>
+                  <a href="#">Prijavi se</a>
+        
+
+          <div class="ikonice">
+            <img class="srce" src="./images/lupa.png" alt="">
+              <img class="srce" src="./images/srce.png" alt="">
+              <img class="srce" src="./images/korpa.png" alt="">
+
+            </div>
+    </div>
+</div>
+</div>
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- Purple nav -->
+<div class="navbar container-fluid">
+    <div class="container">
+        <div class="kategorije">
+            <p>Novo</p>
+            <p>Šminka</p >
+            <p>Parfemi</p >
+            <p>Nega tela</p>
+            <p>Nega lica</p>
+            <p>Muškarci </p>
+            <p>Deca</h2>
+        </div>
+
+    </div>
+</div>
+
+<!-- Above the nav -->
+<div class="container">
+        <div class="mapa">
+           <a href="#">Početna</a> <span> - </span> 
+           <a href="#">Parfemi</a><span> - </span> 
+           <a href="#">Parfemski Setovi</a><span> - </span> 
+           <a id="neboldiran" href="#">Ženski parfemski setovi</a>
+        </div>
+    </div>
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- Jumbotron -->
+<div class="container">
+    <div class="jumbotron">
+        <div class="jumbo-text">
+            <h1>Ženski parfemski setovi</h1>
+            <p>Pregledaj novu kolekciju ženskih parfemskih setova.</p>
+            <p>Svetski poznati brendovi samo kod nas.</p>
+        </div>
+    </div>
+</div>
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- -------------------------------------stats--------------------------------------------------------------------------------------------------------- -->
+
+<!-- Jumbotron -->
+<div class="container">
+    <div class="stats">
+        <div>
+            <p>Prikazano 1-18 od 140 proizvoda</p>
+        </div> 
+        <div class="stats-right-side">
+          <p class="sortiraj">Sortiraj po</p>
+          <form >
+            <div class="multiselect">
+              
+              <div class="selectBox" onclick="showCheckboxes2()">
+                
+               <div class="najnovije styled-select select">
+               
+                 <div class="customSelect">
+                  
+                  <h2 class="selekt">Najnovije</h2>
+                  <img src="./images/strelica.png" alt="">
+                 </div>
+                
+                <select class="sakriveno" style="border:none">
+                  
+                </select>
+               </div>
+                
+                <div class="overSelect os"></div>
+              </div>
+              <div id="checkboxes2">
+                  <!-- <input   type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <label class="ar" for="vehicle1"> Armani (11)</label><br> -->
+
+                
+
+              </div>
+            </div>
+          </form>
+
+        </div> 
+    </div>
+</div>
+<!-- ---------------------------Main------------------------------------------------------------------------------------------------------------------- -->
+
+        <div class="container">
+            <div class="omotac">
+                <div class="filteri">
+
+                        <div class="filteri-omotac">
+                            <form>
+                                <div class="multiselect">
+                                  <div class="selectBox" onclick="showCheckboxes0()">
+                                   <div class="styled-select select">
+                                     <div class="customSelect">
+                                      <h2 class="selekt">Filtriraj po</h2>
+                                      <img src="./images/strelica.png" alt="">
+                                     </div>
+                                    
+                                    <select style="border:none">
+                                      
+                                    </select>
+                                   </div>
+                                    
+                                    <div class="overSelect"></div>
+                                  </div>
+                                  <div id="checkboxes0">
+                                      <!-- <input   type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                      <label class="ar" for="vehicle1"> Armani (11)</label><br>
+          
+                                      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                      <label class="ar" for="vehicle2"> Blumarine (7)</label><br>
+          
+                                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                      <label class="ar" for="vehicle3"> Bottega Veneta (2)</label><br>
+          
+                                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                      <label class="ar" for="vehicle3"> Boucheron (4)</label><br>
+          
+                                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                      <label class="ar" for="vehicle3"> Bruno Banani (1)</label><br>
+          
+                                      <input type="checkbox" id="vehicle4" name="vehicle3" value="Boat">
+                                      <label class="ar" for="vehicle3"> Burberry (12)</label><br>
+
+                                      <input type="checkbox" id="vehicle4" name="vehicle3" value="Boat">
+                                      <label class="ar" for="vehicle3"> Bvlgary (9)</label><br> -->
+          
+                                  </div>
+                                </div>
+                              </form>
+                              <!-- range -->
+
+
+                              <div class="slidecontainer">
+                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                              </div>
+                              <!-- end of range -->
+                            <p class="cenovni-okvir">Cena: $25-$220</p>
+                        </div>
+
+                        <div class="checkboksevi">
+
+                       
+                 
+                            <form>
+                              <div class="multiselect">
+                                <div class="selectBox" onclick="showCheckboxes()">
+                                  <div class="styled-select select">
+                                    <div class="customSelect">
+                                     <h2 class="selekt">Filtriraj po nazivu</h2>
+                                     <img src="./images/strelica.png" alt="">
+                                    </div>
+                                   
+                                   <select style="border:none">
+                                     
+                                   </select>
+                                  </div>
+                                  <div class="overSelect"></div>
+                                </div>
+                                <div id="checkboxes">
+                                    <input  type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                    <label class="ar" for="vehicle1"> Armani (11)</label><br>
+        
+                                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                    <label class="ar" for="vehicle2"> Blumarine (7)</label><br>
+        
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label class="ar" for="vehicle3"> Bottega Veneta (2)</label><br>
+        
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label class="ar" for="vehicle3"> Boucheron (4)</label><br>
+        
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                    <label class="ar" for="vehicle3"> Bruno Banani (1)</label><br>
+        
+                                    <input type="checkbox" id="vehicle4" name="vehicle3" value="Boat">
+                                    <label class="ar" for="vehicle3"> Burberry (12)</label><br>
+        
+                                </div>
+                              </div>
+                            </form>
+
+                            
+
+                        </div>
+
+                        <div class="checkboksevi1">
+
+                            <form>
+                                <div class="multiselect">
+                                  <div class="selectBox" onclick="showCheckboxes1()">
+                                    <div class="styled-select select">
+                                      <div class="customSelect">
+                                       <h2 class="selekt">Filtriraj po zapremini</h2>
+                                       <img src="./images/strelica.png" alt="">
+                                      </div>
+                                     
+                                     <select style="border:none">
+                                       
+                                     </select>
+                                    </div>
+                                    <div class="overSelect"></div>
+                                  </div>
+                                  <div id="checkboxes1">
+                                      <input  type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                      <label class="ar" for="vehicle1"> 0 ml - 50 ml (11)</label><br>
+          
+                                      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                      <label class="ar" for="vehicle2"> 50 ml - 100 ml (22)</label><br>
+          
+                                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                      <label class="ar" for="vehicle3"> 100 ml - 150 ml (35)</label><br>
+          
+                                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                      <label class="ar" for="vehicle3">150 ml - 200 ml (7)</label><br>
+          
+                                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                      <label class="ar" for="vehicle3"> 200 ml -250 ml (41)</label><br>
+          
+                                      <input type="checkbox" id="vehicle4" name="vehicle3" value="Boat">
+                                      <label class="ar" for="vehicle3"> 250 ml - 300 ml (16))</label><br>
+          
+                                  </div>
+                                </div>
+                              </form>
+
+
+                        </div>
+                   
+                  
+                </div>
+                <div class="main">
+
+                    <!-- <div class="p-parferm">
+                        <div class="slika">
+                            <img src="./images/parfem1.png" alt="">
+                        </div>
+                        <div class="content">
+                          <p>Brend sa jako dugackim imenom...</p><img class="srce" src="./images/samoSrce.png" alt="">
+                          <p>Atomic Edurance Running Tee (Crew Neck) Primer Dugackog Imena Sa Tri Reda...</p>
+
+                          <h2>$159.99</h2>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="flex-container-parrent">
+
+                
+                 <div class="flex-container"> 
+
+               
+                <div class="card column  " style="width: 18rem;">
+                  <img class="card-img-top" src="./images/parfem1.png" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Brend sa jako dugackim imenom...</p>
+                    <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck) Primer Dugackog Imena Sa Tri Reda...</h5>
+
+                    <h2 class="podebljana-cena" >$159.99</h2>
+                    <i class="far fa-heart srceParfem"></i>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                  </div>
+                </div>
+
+                <div class=" card column" style="width: 18rem;">
+                  <span class="popust">25%</span>
+                 
+                  <img class="card-img-top" src="./images/parfem2.png" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Dolce & Gabanna</p>
+                    <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck)...</h5>
+
+                    <h2 class="podebljana-cena dolce ljubicasto" >$159.99</h2><h3 class="bivsa-cena">$199.99</h3></span>
+                    <img class="srceParfem" src="./images/samoSrce.png" alt="">
+                  
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    
+                  </div>
+                </div>
+
+                <div class=" card column " style="width: 18rem;">
+                  <span class="popust novo">Novo</span>
+                  <span class="popust poslednji">25%</span>
+                  <img class="card-img-top" src="./images/parfem3.png" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Dolce & Gabanna</p>
+                    <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck) Primer Dugackog Imena Sa Tri Reda...</h5>
+
+                    <h2 class="podebljana-cena ljubicasto">$49.99</h2><span ><h3 class="bivsa-cena">$99.99</h3></span>
+                    <i class="far fa-heart srceParfem"></i>
+                    
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                  </div>
+                </div>
+
+             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+             <div class="flex-container"> 
+
+               
+              <div class="card column  " style="width: 18rem;">
+                <img class="card-img-top" src="./images/parfem1.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Brend sa jako dugackim imenom...</p>
+                  <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck) Primer Dugackog Imena Sa Tri Reda...</h5>
+
+                  <h2 class="podebljana-cena" >$159.99</h2>
+                  <i class="far fa-heart srceParfem"></i>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+
+              <div class=" card column" style="width: 18rem;">
+                <span class="popust">25%</span>
+               
+                <img class="card-img-top" src="./images/parfem2.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Dolce & Gabanna</p>
+                  <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck)...</h5>
+
+                  <h2 class="podebljana-cena dolce ljubicasto" >$159.99</h2><h3 class="bivsa-cena">$199.99</h3></span>
+                  <img class="srceParfem" src="./images/samoSrce.png" alt="">
+                
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                  
+                </div>
+              </div>
+
+              <div class=" card column " style="width: 18rem;">
+                <span class="popust novo">Novo</span>
+                <span class="popust poslednji">25%</span>
+                <img class="card-img-top" src="./images/parfem3.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Dolce & Gabanna</p>
+                  <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck) Primer Dugackog Imena Sa Tri Reda...</h5>
+
+                  <h2 class="podebljana-cena ljubicasto">$49.99</h2><span ><h3 class="bivsa-cena">$99.99</h3></span>
+                  <i class="far fa-heart srceParfem"></i>
+                  
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+
+           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+           <div class="flex-container"> 
+
+               
+            <div class="card column  " style="width: 18rem;">
+              <img class="card-img-top" src="./images/parfem1.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Brend sa jako dugackim imenom...</p>
+                <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck) Primer Dugackog Imena Sa Tri Reda...</h5>
+
+                <h2 class="podebljana-cena" >$159.99</h2>
+                <i class="far fa-heart srceParfem"></i>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+
+            <div class=" card column" style="width: 18rem;">
+              <span class="popust">25%</span>
+             
+              <img class="card-img-top" src="./images/parfem2.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Dolce & Gabanna</p>
+                <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck)...</h5>
+
+                <h2 class="podebljana-cena dolce ljubicasto" >$159.99</h2><h3 class="bivsa-cena">$199.99</h3></span>
+                <img class="srceParfem" src="./images/samoSrce.png" alt="">
+              
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                
+              </div>
+            </div>
+
+            <div class=" card column " style="width: 18rem;">
+              <span class="popust novo">Novo</span>
+              <span class="popust poslednji">25%</span>
+              <img class="card-img-top" src="./images/parfem3.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Dolce & Gabanna</p>
+                <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck) Primer Dugackog Imena Sa Tri Reda...</h5>
+
+                <h2 class="podebljana-cena ljubicasto">$49.99</h2><span ><h3 class="bivsa-cena">$99.99</h3></span>
+                <i class="far fa-heart srceParfem"></i>
+                
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <div class="flex-container"> 
+
+               
+          <div class="card column  " style="width: 18rem;">
+            <img class="card-img-top" src="./images/parfem1.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Brend sa jako dugackim imenom...</p>
+              <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck) Primer Dugackog Imena Sa Tri Reda...</h5>
+
+              <h2 class="podebljana-cena" >$159.99</h2>
+              <i class="far fa-heart srceParfem"></i>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+
+          <div class=" card column" style="width: 18rem;">
+            <span class="popust">25%</span>
+           
+            <img class="card-img-top" src="./images/parfem2.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Dolce & Gabanna</p>
+              <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck)...</h5>
+
+              <h2 class="podebljana-cena dolce ljubicasto" >$159.99</h2><h3 class="bivsa-cena">$199.99</h3></span>
+              <img class="srceParfem" src="./images/samoSrce.png" alt="">
+            
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              
+            </div>
+          </div>
+
+          <div class=" card column " style="width: 18rem;">
+            <span class="popust novo">Novo</span>
+            <span class="popust poslednji">25%</span>
+            <img class="card-img-top" src="./images/parfem3.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Dolce & Gabanna</p>
+              <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck) Primer Dugackog Imena Sa Tri Reda...</h5>
+
+              <h2 class="podebljana-cena ljubicasto">$49.99</h2><span ><h3 class="bivsa-cena">$99.99</h3></span>
+              <i class="far fa-heart srceParfem"></i>
+              
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="flex-container"> 
+
+               
+        <div class="card column  " style="width: 18rem;">
+          <img class="card-img-top" src="./images/parfem1.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Brend sa jako dugackim imenom...</p>
+            <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck) Primer Dugackog Imena Sa Tri Reda...</h5>
+
+            <h2 class="podebljana-cena" >$159.99</h2>
+            <i class="far fa-heart srceParfem"></i>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+
+        <div class=" card column" style="width: 18rem;">
+          <span class="popust">25%</span>
+         
+          <img class="card-img-top" src="./images/parfem2.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Dolce & Gabanna</p>
+            <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck)...</h5>
+
+            <h2 class="podebljana-cena dolce ljubicasto" >$159.99</h2><h3 class="bivsa-cena">$199.99</h3></span>
+            <img class="srceParfem" src="./images/samoSrce.png" alt="">
+          
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            
+          </div>
+        </div>
+
+        <div class=" card column " style="width: 18rem;">
+          <span class="popust novo">Novo</span>
+          <span class="popust poslednji">25%</span>
+          <img class="card-img-top" src="./images/parfem3.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Dolce & Gabanna</p>
+            <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck) Primer Dugackog Imena Sa Tri Reda...</h5>
+
+            <h2 class="podebljana-cena ljubicasto">$49.99</h2><span ><h3 class="bivsa-cena">$99.99</h3></span>
+            <i class="far fa-heart srceParfem"></i>
+            
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+
+     </div>
+
+
+
+
+
+
+
+
+     <div class="flex-container"> 
+
+               
+      <div class="card column  " style="width: 18rem;">
+        <img class="card-img-top" src="./images/parfem1.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Brend sa jako dugackim imenom...</p>
+          <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck) Primer Dugackog Imena Sa Tri Reda...</h5>
+
+          <h2 class="podebljana-cena" >$159.99</h2>
+          <i class="far fa-heart srceParfem"></i>
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+      </div>
+
+      <div class=" card column" style="width: 18rem;">
+        <span class="popust">25%</span>
+       
+        <img class="card-img-top" src="./images/parfem2.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Dolce & Gabanna</p>
+          <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck)...</h5>
+
+          <h2 class="podebljana-cena dolce ljubicasto" >$159.99</h2><h3 class="bivsa-cena">$199.99</h3></span>
+          <img class="srceParfem" src="./images/samoSrce.png" alt="">
+        
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          
+        </div>
+      </div>
+
+      <div class=" card column " style="width: 18rem;">
+        <span class="popust novo">Novo</span>
+        <span class="popust poslednji">25%</span>
+        <img class="card-img-top" src="./images/parfem3.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Dolce & Gabanna</p>
+          <h5 class="card-title">Atomic Edurance Running Tee (Crew Neck) Primer Dugackog Imena Sa Tri Reda...</h5>
+
+          <h2 class="podebljana-cena ljubicasto">$49.99</h2><span ><h3 class="bivsa-cena">$99.99</h3></span>
+          <i class="far fa-heart srceParfem"></i>
+          
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+      </div>
+
+   </div>
+  </div>
+          </div>
+            
+            
+        </div>
+
+     
+    </div>
+  </div>
+
+  <div class="pagination">
+    <div class="pagination-container">
+
+    
+    <a href="#" class="left-arrow"><img src="./images/leftArrow.png" alt=""></a>
+    <a  class="ljubicast brojevi" href="#">1</a>
+    <a  class="brojevi" href="#">2</a>
+    <a  class="brojevi"href="#">3</a>
+    <a  class="brojevi" href="#">...</a>
+    <a  class="brojevi"href="#">7</a>
+
+    <a href="#" class="right-arrow"><img src="./images/rightArrow.png" alt=""></a>
+  </div>
+  </div>
+<footer class="footer">
+      <div>
+        <h2><img src="./images/footerLogo.png" alt=""></h2>
+            <p>
+              Knez Mihajlova 15, Beograd
+          </p>
+            <p>011 / 123-456-78</p>
+            <p>nekiemail@gmail.com</p>
+      </div>
+
+      <div class="linkovi">
+        <h2>Korisni Linkovi</h2>
+        <a href="#">Opsti Uslovi</a>
+        <a href="#">Politika privatnosti</a>
+        <a href="#">Najčešća pitanja</a>
+        <a href="#">Zamena robe</a>
+        <a href="#">Povraćaj sredstava</a>
+      </div>
+
+      <div>
+        <h2>O kompaniji</h2>
+         <a href="#">O nama</a>
+         <a href="#">Prodavnice</a>
+         <a href="#">Zaposlenje</a>
+      </div>
+
+      <div>
+        <h2>Pratite nas</h2>
+            <img src="./images/facebook.png" alt="">
+            <img src="./images/instagram.png" alt="">
+            <img src="./images/youtube.png" alt="">
+      </div>
+
+
+</footer>
+<div class="kraj"> &#169; Sva prava su zadržana</div>
+
+        <script>
+
+var expanded = false;
+
+function showCheckboxes() {
+  var checkboxes = document.getElementById("checkboxes");
+  if (!expanded) {
+    checkboxes.style.display = "block";
+    expanded = true;
+  } else {
+    checkboxes.style.display = "none";
+    expanded = false;
+  }
+}
+var expanded1 = false;
+
+function showCheckboxes1() {
+  var checkboxes1 = document.getElementById("checkboxes1");
+  if (!expanded1) {
+    checkboxes1.style.display = "block";
+    expanded1 = true;
+  } else {
+    checkboxes1.style.display = "none";
+    expanded1 = false;
+  }
+}
+
+
+var expanded0 = false;
+
+function showCheckboxes0() {
+  var checkboxes0 = document.getElementById("checkboxes0");
+  if (!expanded0) {
+    checkboxes0.style.display = "block";
+    expanded0 = true;
+  } else {
+    checkboxes0.style.display = "none";
+    expanded0 = false;
+  }
+}
+
+var expanded2 = false;
+
+function showCheckboxes2() {
+  var checkboxes2 = document.getElementById("checkboxes2");
+  if (!expanded2) {
+    checkboxes2.style.display = "block";
+    expanded2 = true;
+  } else {
+    checkboxes2.style.display = "none";
+    expanded2 = false;
+  }
+}
+
+        </script>
+        <!-- <script src='./js/range.js'></script> -->
+</body>
+</html>
